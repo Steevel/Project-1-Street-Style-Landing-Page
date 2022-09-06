@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    padding: 32px;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-family: 'Orbitron', Times, serif;
+    font-size: large;
+}
+
+.list-item {
+    font-weight: 500;
+    margin: 20px;
+}
+
+ul :first-child {
+    font-weight: 800;
+    font-size: x-large;
+    font-style: bold;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+
+}
+
+.search-icon {
+    margin-right: 1em;
+}
+
+.nav-button {
+    border: 2px solid black;
+    background-color: white;
+    color: gray;
+    font-weight: 200;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 6px 32px;
+    margin: 4px;
+}
+
+
+/* Hero Banner Section */
+
+.hero-container {
+    display: flex;
+}
+
+img[alt="person-hero-iamge"] {
+    position: absolute;
+    height: 70%;
+    left: 106px;
+    top: 130px;
+}
+
+.square>img {
+    position: relative;
+    left: 160px;
+    top: 174px;
+
+}
+
+.star {
+    height: fit-content;
+    position: relative;
+    top: 3em;
+    left: 54em;
+}
+
+.globe {
+    height: fit-content;
+    position: relative;
+    left: 8em;
+}
+
+
+.hero-container-right {
+    height: fit-content;
+    position: relative;
+    top: 10em;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 4rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hero-description {
+    margin: 2em 20%;
+    color: gray;
+}
+
+.button-email {
+    border: 3px solid black;
+    background-color: #FFFFFF;
+    color: gray;
+    font-size: 1.5rem;
+    padding: 8px 24px;
+    border-radius: 15px;
+    margin-right: 1em;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.button-join {
+    border: 3px solid black;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding: 8px 24px;
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contact-heading {
+    margin-top: 2em;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons {
+    margin-top: 2em;
+}
